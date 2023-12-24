@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background: rgba(150, 210, 233, 0.833);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.container {
+  width: 80%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0, 3);
+  box-shadow: 0 5px 7px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .heading {
+  color: darkcyan;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .ratings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.container .rating {
+  cursor: pointer;
+  padding: 12px;
+  margin: 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+small {
+  font-size: 1rem;
+  color: darkcyan;
+  margin: 11px 0;
+}
+.rating img {
+  width: 40px;
+}
+.rating:hover,
+.rating.active {
+  background: rgba(152, 223, 152, 0.717);
+  border-radius: 8px;
+}
+
+.container .btn {
+  padding: 10px 15px;
+  width: 10rem;
+  background: darkcyan;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  color: azure;
+}
+.btn:hover {
+  box-shadow: 0 2px 3px 4px rgba(0, 0, 0, 0.1);
+}
+.btn:active {
+  transform: scale(0.96);
+}
