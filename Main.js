@@ -25,6 +25,9 @@ btnEl.addEventListener("click", () => {
      <br> 
      Our Team will Support you.`;
     containerEl.style.background = "red";
+  } else {
+    containerEl.innerHTML = `<strong> Please first select the feedback Option. </strong>`;
+    containerEl.style.color = "red";
   }
 });
 
